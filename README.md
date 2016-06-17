@@ -1,6 +1,13 @@
 # garbage
 
 
+
+* Add these lines to /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Resources/IDETextKeyBindingSet.plist
+* restart Xcode
+* Assign shortcuts to new actions
+
+Code:
+
     <key>Duplicate Down</key>
     <string>selectLine:, copy:, moveToEndOfLine:, insertNewline:, paste:, deleteBackward:</string>
     <key>Duplicate Up</key>
